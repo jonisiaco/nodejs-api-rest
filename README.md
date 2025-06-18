@@ -6,7 +6,7 @@ This is a simple Node.js and Express-based REST API project.
 
 Before you begin, make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [Node.js](https://nodejs.org/) (v24 or higher recommended)
 - [npm](https://www.npmjs.com/)
 
 ## Installation 
@@ -14,19 +14,21 @@ Before you begin, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jonisiaco/nodejs/api-test
+git clone https://github.com/jonisiaco/nodejs/api-rest
 
 npm install
-
-npm run start
+```
 
 2. Environment variables
 
 Rename copy.env file to .env
+
 ```bash
 mv copy.env .env
+```
 
 3. Run server script:
 
 ```bash
 npm run start
+```
